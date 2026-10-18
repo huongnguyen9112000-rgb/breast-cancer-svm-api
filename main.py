@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field 
 
 # Định nghĩa đường dẫn và nạp artifact, metadata đã huấn luyện
 BASE_DIR = Path(__file__).resolve().parents[1]
