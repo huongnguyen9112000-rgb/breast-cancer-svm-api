@@ -7,7 +7,7 @@ from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field 
 
 # Định nghĩa đường dẫn và nạp artifact, metadata đã huấn luyện
-BASE_DIR = Path(__file__).resolve().parents[1]
+BASE_DIR = Path(__file__).resolve().parents[1] 
 MODEL_PATH = BASE_DIR / "artifacts/breast_cancer_svm.joblib"
 META_PATH = BASE_DIR / "artifacts/metadata.json"
 
